@@ -1,0 +1,30 @@
+body {
+    background-color: #211C1F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #62a3a5;
+}
+
+h1 {
+    color: #CEB5A7;
+}
+
+a:any-link {
+    color: #FEFCFD;
+    text-decoration-color: #72A98F;
+}
+
+.mainheader {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.recipelistcontainer {
+    width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #2C414E;
+}
+
+.recipelistcontainer li {
+    margin: 10px 0px;
+}
