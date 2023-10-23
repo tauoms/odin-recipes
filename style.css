@@ -1,11 +1,29 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 body {
     background-color: #211C1F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #62a3a5;
 }
 
+p, li {
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    word-spacing: 0px;
+}
+
 h1 {
     color: #CEB5A7;
+    padding: 6px 0px;
+    border-bottom: #72A98F solid 2px;
+    letter-spacing: 2px;
 }
 
 a:any-link {
@@ -13,8 +31,13 @@ a:any-link {
     text-decoration-color: #72A98F;
 }
 
-.mainheader {
-    width: 600px;
+a:hover {
+    color: #72A98F;
+    text-decoration-color: #72A98F;
+}
+
+.container {
+    width: 800px;
     margin: 50px auto;
 }
 
@@ -22,9 +45,37 @@ a:any-link {
     width: 400px;
     margin: 60px auto;
     padding: 20px;
+    border-left: #72A98F solid 14px;
+    border-bottom: #72A98F dashed 1px;
     background-color: #2C414E;
 }
 
 .recipelistcontainer li {
     margin: 10px 0px;
 }
+
+.description {
+    background-color: #CEB5A7;
+    color: #211C1F;
+    width: 800px;
+    padding: 2px 30px;
+    border: 2px solid #CEB5A7;
+    border-radius: 20px;
+    margin: 25px 0px;
+}
+
+.ingredients {
+    display: inline-block;
+    width: 460px;
+    padding: 20px;
+    border-top: #3B5768 solid 12px;
+    border-top-right-radius: 50px;
+    border-right: #3B5768 solid 3px;
+    border-bottom: #2C414E solid 3px;
+    border-left: #2C414E solid 12px;
+    border-bottom-left-radius: 50px;
+    margin: -100px 0px 0px 30px;
+    background-color: #1D2C34;
+    font-size: smaller;
+}
+
